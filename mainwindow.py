@@ -70,6 +70,8 @@ OHJELMAN FLOW:
         print(self.rotuvalikko.get())
 
     def asetakuva(self,polku):
+        #kuvan asetusta varten
+        #katsotaan myöhemmin
         pass
 # HANNAN OSUUS LOPPUU
 #kaikki tästä alaspäin on käyttöliittymä koodia

@@ -10,6 +10,6 @@ if(__name__=="__main__"):
     root.geometry("{}x{}+{}+{}".format(width,height,x,y))
     root.title("HAMK koirawiki")
     root.configure(bg="grey")
-    #root.resizable(False,False)
+    root.resizable(False,False)
     mainwindow.Mainwindow(root)
     root.mainloop()
