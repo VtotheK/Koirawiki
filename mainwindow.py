@@ -107,10 +107,10 @@ OHJELMAN FLOW:
                 text="Valitse rotu",
                 bg=self.bg_col,
                 font=self.lbl_font)
-        rotu_otsikko.place(relx=.5,rely=.45,anchor="center")
+        rotu_otsikko.place(relx=.5,rely=.44,anchor="center")
 
         self.rotuvalikko = ttk.Combobox(master=self.valikkoframe,state="readonly")
-        self.rotuvalikko.place(relx=.5,rely=.56,anchor="center")
+        self.rotuvalikko.place(relx=.5,rely=.50,anchor="center")
         self.rotuvalikko.bind("<<ComboboxSelected>>",self.rotuvalinta)
 
     def rotukuva(self):
